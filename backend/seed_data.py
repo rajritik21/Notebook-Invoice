@@ -25,7 +25,7 @@ async def seed_database():
     admin_data = {
         "email": "admin@stationery.com",
         "password_hash": get_password_hash("Admin@123"),
-        "name": "Admin User",
+        "name": "S K NoteBook",
         "created_at": datetime.now(timezone.utc).isoformat()
     }
     await db.admins.insert_one(admin_data)

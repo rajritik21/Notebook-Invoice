@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
       <Header className="flex items-center justify-between px-8" style={{ background: '#FFFFFF', borderBottom: '1px solid #E5E7EB' }}>
         <div className="flex items-center gap-3">
           <BookOpen size={32} className="text-primary" style={{ color: '#312E81' }} />
-          <span className="font-heading text-2xl font-bold" style={{ color: '#312E81' }}>InvoiceHub</span>
+          <span className="font-heading text-2xl font-bold" style={{ color: '#312E81' }}>S K NoteBook</span>
         </div>
         
         <div className="flex items-center gap-8">
